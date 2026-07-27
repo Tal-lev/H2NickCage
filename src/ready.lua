@@ -13,10 +13,6 @@ modutil.mod.Path.Wrap("SetupMap", function(base, source, args)
 	return base(source, args)
 end)
 
-modutil.once_loaded.game(function()
-	import "Animations.lua"
-	if CurrentRun and CurrentRun.Hero then
-		OverwriteTableKeys(ProjectileData.WeaponDaggerThrow.Thing.Graphic, {"NickCage"})
-	end
 
-end)
+import "Animations.lua"
+import "CageProjectiles.lua"
