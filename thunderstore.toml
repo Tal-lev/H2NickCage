@@ -1,13 +1,13 @@
 [config]
-schemaVersion = "0.0.1"
+schemaVersion = "1.0.0"
 
 
 [package]
 namespace = "JarlUlsfark"
-name = "UnderworldRites"
-versionNumber = "0.0.1"
+name = "H2NickCage"
+versionNumber = "1.0.0"
 description = "Allows to do some super duper thing."
-websiteUrl = "https://github.com/AuthorName/ModName"
+websiteUrl = "https://github.com/Tal-lev/H2NickCage"
 containsNsfwContent = false
 
 [package.dependencies]
@@ -17,8 +17,6 @@ SGG_Modding-Chalk = "2.1.1"
 SGG_Modding-ReLoad = "1.0.2"
 SGG_Modding-SJSON = "1.0.0"
 SGG_Modding-ModUtil = "4.0.1"
-zannc-GodsAPI = "2.0.7"
-zannc-KeepsakeExtender = "1.0.1"
 
 
 [build]
