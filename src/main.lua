@@ -34,9 +34,6 @@ chalk = mods["SGG_Modding-Chalk"]
 ---@module 'SGG_Modding-ReLoad'
 reload = mods['SGG_Modding-ReLoad']
 
----@module 'zannc-GodsAPI-auto'
-gods = mods["zannc-GodsAPI"].auto()
-
 ---@module 'config'
 config = chalk.auto 'config.lua'
 -- ^ this updates our `.cfg` file in the config folder!
