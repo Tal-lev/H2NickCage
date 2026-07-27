@@ -1,4 +1,4 @@
-# Mod name
+# H2NickCage
 
 Hades II mod allowing to do some super duper thing.
 
